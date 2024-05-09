@@ -1,0 +1,315 @@
+@media (max-width: 1493px) {
+  /* MAIN/HERO - Content */
+  .main .content {
+    margin-top: 2rem;
+  }
+
+  .main .content .heading {
+    font-size: 4.4rem;
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 1360px) {
+  /* WRAPPER */
+  .container {
+    padding: 6rem 10rem;
+  }
+}
+
+@media (max-width: 1295px) {
+  /* WRAPPER */
+  .container {
+    padding: 6rem 8rem;
+  }
+}
+
+@media (max-width: 1229px) {
+  /* WRAPPER */
+  .container {
+    padding: 6rem 6rem;
+  }
+
+  /* MAIN/HERO */
+  .main {
+    gap: 4rem;
+  }
+
+  /* MAIN/HERO - Mockups */
+  .main .mockups {
+    width: 100%;
+  }
+
+  /* MAIN/HERO - Content */
+  .main .content {
+    margin-top: 2rem;
+  }
+
+  .main .content .heading {
+    font-size: 3.6rem;
+  }
+
+  .main .content .description {
+    font-size: 1.8rem;
+    line-height: normal;
+  }
+}
+
+@media (max-width: 1130px) {
+  /* MAIN/HERO - Content - Button */
+  .main .content .register-btn {
+    padding: 1.4rem 6rem;
+    font-size: 1.8rem;
+  }
+
+  .socials .social {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .socials .facebook {
+    font-size: 1.8rem;
+  }
+
+  .socials .twitter {
+    font-size: 1.8rem;
+  }
+
+  .socials .instagram {
+    font-size: 2.2rem;
+  }
+}
+
+
+
+
+
+/* !!! TABLET HERE !!! */
+
+@media (max-width: 935px) {
+  /* WRAPPER */
+  body {
+    background: url(../images/bg-mobile.svg) no-repeat center/cover fixed;
+    background-color: var(--bg-color);
+  }
+
+  .container {
+    height: auto;
+    padding: 6rem 6rem;
+  }
+
+  /* MAIN/HERO */
+  .main {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  /* MAIN/HERO - Content */
+  .main .content {
+    max-width: 90%;
+    margin-top: 7rem;
+    align-items: center;
+  }
+
+  .main .content .heading {
+    font-size: 4.8rem;
+    margin-bottom: 3.4rem;
+  }
+
+  .main .content .description {
+    font-size: 3rem;
+    margin-bottom: 4rem;
+    line-height: 4.4rem;
+  }
+
+  /* MAIN/HERO - Content - Button */
+  .main .content .register-btn {
+    font-size: 2.2rem;
+    padding: 1.8rem 14rem;
+  }
+
+  /* SOCIAL LINKS */
+  .socials {
+    margin-top: 12rem;
+    gap: 2rem;
+    align-self: center;
+  }
+
+  .socials .social {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .socials .facebook {
+    font-size: 2.2rem;
+  }
+
+  .socials .twitter {
+    font-size: 2.1rem;
+  }
+
+  .socials .instagram {
+    font-size: 2.6rem;
+  }
+}
+
+@media (max-width: 768px) {
+  /* HEADER */
+  .header .logo {
+    width: 80%;
+  }
+
+  /* MAIN/HERO - Content */
+  .main .content {
+    margin-top: 5rem;
+  }
+
+  .main .content .heading {
+    font-size: 4.2rem;
+  }
+
+  .main .content .description {
+    font-size: 2.8em;
+  }
+}
+
+@media (max-width: 558px) {
+  /* HEADER */
+  .header {
+    margin-bottom: 6rem;
+  }
+  .header .logo {
+    width: 70%;
+  }
+
+  /* MAIN/HERO - Content */
+  .main .content {
+    margin-top: 4rem;
+  }
+
+  .main .content .heading {
+    font-size: 3.2rem;
+  }
+
+  .main .content .description {
+    font-size: 2.2em;
+  }
+
+  /* MAIN/HERO - Content - Button */
+  .main .content .register-btn {
+    font-size: 1.8rem;
+    padding: 1.4rem 10rem;
+  }
+
+  /* SOCIAL LINKS */
+  .socials {
+    margin-top: 8rem;
+  }
+
+  .socials .social {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .socials .facebook {
+    font-size: 1.8rem;
+  }
+
+  .socials .twitter {
+    font-size: 1.8rem;
+  }
+
+  .socials .instagram {
+    font-size: 2.2rem;
+  }
+}
+
+
+
+
+
+
+/* !!! MOBILE HERE !!! */
+@media (max-width: 425px) {
+  /* WRAPPER */
+  .container {
+    padding: 4rem 4rem;
+  }
+
+  /* HEADER */
+  .header .logo {
+    width: 60%;
+  }
+
+  /* MAIN/HERO - Content */
+  .main .content {
+    margin-top: 3rem;
+  }
+
+  .main .content .heading {
+    font-size: 2.6rem;
+  }
+
+  .main .content .description {
+    font-size: 1.8em;
+    line-height: 3.2rem;
+  }
+
+  /* MAIN/HERO - Content - Button */
+  .main .content .register-btn {
+    font-size: 1.6rem;
+    padding: 1.2rem 8rem;
+  }
+
+  /* SOCIAL LINKS */
+  .socials {
+    margin-top: 8rem;
+  }
+
+  .socials .social {
+    width: 3.4rem;
+    height: 3.4rem;
+    border: 1px solid var(--text-color);
+  }
+
+  .socials .facebook {
+    font-size: 1.6rem;
+  }
+
+  .socials .twitter {
+    font-size: 1.6rem;
+  }
+
+  .socials .instagram {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 415px) {
+  .main .content .heading {
+    font-size: 2.4rem;
+  }
+
+  .main .content .description {
+    font-size: 1.6em;
+    line-height: 2.8rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .main .content .heading {
+    font-size: 2.1em;
+  }
+
+  .main .content .description {
+    font-size: 1.4em;
+  }
+}
+
+@media (max-width: 370px) {
+  .main .content .heading {
+    font-size: 1.9rem;
+  }
+}

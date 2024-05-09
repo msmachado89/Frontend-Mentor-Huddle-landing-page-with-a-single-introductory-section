@@ -1,0 +1,152 @@
+/* GENERALS */
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: url(../images/bg-desktop.svg) no-repeat center/cover fixed;
+  background-color: var(--bg-color);
+
+  font-family: var(--text-font);
+  color: var(--text-color);
+}
+
+
+/* WRAPPER */
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
+  
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  padding: 6rem 12rem;
+}
+
+
+/* HEADER */
+.header {
+  margin-bottom: 8rem;
+  align-self: flex-start;
+}
+
+.header .logo {
+  width: 100%;
+}
+
+
+/* MAIN/HERO */
+.main {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* MAIN/HERO - Mockups */
+.main .image {
+  flex: 1;
+}
+
+.main .mockups {
+  width: 95%;
+}
+
+/* MAIN/HERO - Content */
+.main .content {
+  max-width: 40%;
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.main .content .heading {
+  font-family: var(--heading-font);
+  letter-spacing: 1px;
+  font-size: 5rem;
+  font-weight: 600;
+  margin-bottom: 3.4rem;
+}
+
+.main .content .description {
+  font-size: 2.2rem;
+  font-weight: 300;
+  margin-bottom: 3rem;
+  line-height: 3.6rem;
+}
+
+/* MAIN/HERO - Content - Button */
+.main .content .register-btn {
+  width: fit-content;
+  font-family: var(--heading-font);
+
+  padding: 1.8rem 8rem;
+  color: var(--bg-color);
+
+  font-size: 2.2rem;
+  font-weight: 400;
+
+  border-radius: 4rem;
+
+  border: none;
+
+  box-shadow: 5px 5px 1rem 2px rgba(0, 0, 0, 0.3);
+
+  transition: 0.3s ease-in-out;
+}
+
+.main .content .register-btn:hover {
+  color: var(--text-color);
+  background-color: var(--active-color);
+  cursor: pointer;
+}
+
+
+/* SOCIAL LINKS */
+.socials {
+  display: flex;
+  align-self: flex-end;
+ 
+  gap: 2.2rem;
+}
+
+.socials a {
+  color: var(--text-color);
+  cursor: default;
+}
+
+.socials .social {
+  width: 5rem;
+  height: 5rem;
+  border: 2px solid var(--text-color);
+  border-radius: 50%;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socials .facebook {
+  font-size: 2.2rem;
+}
+
+.socials .twitter {
+  font-size: 2.1rem;
+}
+
+.socials .instagram {
+  font-size: 2.6rem;
+}
+
+.socials a .social:hover {
+  color: var(--active-color);
+  border-color: var(--active-color);
+  cursor: pointer;
+}
+
+
+
